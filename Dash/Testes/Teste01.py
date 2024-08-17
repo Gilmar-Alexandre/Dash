@@ -17,6 +17,7 @@ def generate_table(dataframe, max_rows=10):
     ])
 
 
+
 app = Dash(__name__)
 
 app.layout = html.Div([
