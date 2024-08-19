@@ -7,6 +7,7 @@ from sqlalchemy.sql import select
 from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager, UserMixin
 import os
-import create_database
+
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = app.server

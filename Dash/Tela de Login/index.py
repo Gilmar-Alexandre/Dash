@@ -15,13 +15,14 @@ from dash_bootstrap_templates import load_figure_template
 load_figure_template(["quartz"])
 
 # ================= Layout =================== #
-app.layout = dbc.Container[children=[
-                    dbc.Row([
-                            dbc.Col([
-    
-                                    ])
-                                ])
-                            ], fluid=True]
+app.layout = dbc.Container(children=[
+                dbc.Row([
+                    dbc.col([
+
+                    ]),
+                ])
+
+                ],fluid=True)
 
 
 if __name__ == "__main__":
